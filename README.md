@@ -1,4 +1,4 @@
-# php
+#Ambiente testes em PHP
 ambiente para testes em php com docker 🐋 &lt;3 🐘
 
 - **Dockerfile**: Arquivo que contém as instruções para construir a imagem Docker.
