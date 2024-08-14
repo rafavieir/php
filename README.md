@@ -21,4 +21,4 @@ Para construir e executar a imagem Docker, execute o seguinte comando no diretó
 sudo docker build -t appphp . 
 
 sudo docker run -d -p 8080:80 --name meu-apache-container appphp -- Sem "hot reload"
-sudo docker run -d -p 8080:80 -v ~/.dev/php/app_php:/var/www/html --name containerapache appphp -- Com "hot reload"
+sudo docker run -d -p 8080:80 -v /php/app_php:/var/www/html --name containerapache appphp -- Com "hot reload"
