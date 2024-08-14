@@ -1,5 +1,4 @@
-#Ambiente testes em PHP
-ambiente para testes em php com docker 🐋 &lt;3 🐘
+# Ambiente para testes em php com docker 🐋 &lt;3 🐘
 
 - **Dockerfile**: Arquivo que contém as instruções para construir a imagem Docker.
 - **app_php/**: Diretório contendo os arquivos da aplicação PHP.
